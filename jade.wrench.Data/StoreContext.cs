@@ -1,4 +1,5 @@
 ﻿using jade.wrench.Domain.Catalog;
+using jade.wrench.Domain.Orders;
 using Microsoft.EntityFrameworkCore;
 
 namespace jade.wrench.Data
@@ -9,6 +10,7 @@ namespace jade.wrench.Data
         {}
 
         public DbSet<Item> Items { get; set; }
+        public DbSet<Order> Orders { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
