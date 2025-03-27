@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jade.wrench.Api", "jade.wre
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jade.wrench.Domain", "jade.wrench.Domain\jade.wrench.Domain.csproj", "{2065FE54-7FA5-4314-824B-5078FBD25DB3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jade.wrench.Data", "jade.wrench.Data\jade.wrench.Data.csproj", "{2AA6AB84-E5CA-458E-94A3-CEE9750CDEF3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{2065FE54-7FA5-4314-824B-5078FBD25DB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2065FE54-7FA5-4314-824B-5078FBD25DB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2065FE54-7FA5-4314-824B-5078FBD25DB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AA6AB84-E5CA-458E-94A3-CEE9750CDEF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AA6AB84-E5CA-458E-94A3-CEE9750CDEF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AA6AB84-E5CA-458E-94A3-CEE9750CDEF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AA6AB84-E5CA-458E-94A3-CEE9750CDEF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
