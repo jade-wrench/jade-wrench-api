@@ -6,7 +6,7 @@ namespace jade.wrench.Api.Controllers
     [ApiController]
     [Route("[controller]")]
     public class CatalogController : ControllerBase
-    {
+    { 
         [HttpGet]
         public IActionResult GetItems()
         {
