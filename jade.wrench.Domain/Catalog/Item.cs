@@ -16,7 +16,7 @@ namespace jade.wrench.Domain.Catalog{
             if(string.IsNullOrEmpty(name))
             {
                 throw new ArgumentNullException(name);
-            }
+            } 
 
             if(string.IsNullOrEmpty(description))
             {

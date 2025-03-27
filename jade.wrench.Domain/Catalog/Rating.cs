@@ -16,4 +16,4 @@ public class Rating{
         this.UserName = userName;
         this.Review = review;
     }
-}
+} 
