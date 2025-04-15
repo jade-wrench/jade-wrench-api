@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jade.wrench.Domain", "jade.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jade.wrench.Data", "jade.wrench.Data\jade.wrench.Data.csproj", "{2AA6AB84-E5CA-458E-94A3-CEE9750CDEF3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{24F17F58-419D-4BDB-B872-88341F98A7C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jade.wrench.Domain.Tests", "tests\jade.wrench.Domain.Tests\jade.wrench.Domain.Tests.csproj", "{B53F63C0-EA8E-4D2C-B398-F2FD22E8ACD8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +34,12 @@ Global
 		{2AA6AB84-E5CA-458E-94A3-CEE9750CDEF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2AA6AB84-E5CA-458E-94A3-CEE9750CDEF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2AA6AB84-E5CA-458E-94A3-CEE9750CDEF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B53F63C0-EA8E-4D2C-B398-F2FD22E8ACD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B53F63C0-EA8E-4D2C-B398-F2FD22E8ACD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B53F63C0-EA8E-4D2C-B398-F2FD22E8ACD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B53F63C0-EA8E-4D2C-B398-F2FD22E8ACD8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B53F63C0-EA8E-4D2C-B398-F2FD22E8ACD8} = {24F17F58-419D-4BDB-B872-88341F98A7C7}
 	EndGlobalSection
 EndGlobal
- 
