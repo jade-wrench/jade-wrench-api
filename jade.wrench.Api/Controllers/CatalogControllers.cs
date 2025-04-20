@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using jade.wrench.Domain.Catalog;
 using jade.wrench.Data;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 
 namespace jade.wrench.Api.Controllers
 {
@@ -68,6 +69,9 @@ namespace jade.wrench.Api.Controllers
             return NoContent();
         }
         [HttpDelete("{id:int}")]
+        [Authorize("{delete:catalog}")]
+    
+        
         public IActionResult DeleteItem(int id)
         {
             var item = _db.Items.Find(id);
